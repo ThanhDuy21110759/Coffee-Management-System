@@ -1,16 +1,16 @@
 # COFFEE MANAGEMENT SYSTEM
-Quản lý quán Cafe bao gồm hệ thống order cũng như quản lý nhân viên, khách hàng, các tác vụ CRUD cơ bản trên cơ sở dữ liệu quan hệ `MySQL`. Thực hiện các order một cách nhanh chóng thông qua app được implement bằng `Flutter`. Ứng dụng triển khai theo mô hình `Client-Server` với `Multi-Platform`.
+Cafe management includes the ordering system as well as employee and customer management, and basic CRUD tasks on the `MySQL` relational database. Fulfill orders quickly through an app implemented with `Flutter`. The application is deployed according to the `Client-Server` model with `Multi-Platform`.
 
 Technologies: 
 - `Front end`: ReactJs, Bootstrap (Web application), Flutter (Mobile application)
 - `Back end`: Java Spring boot, Spring Security vs Hibernate
 - `Database`: MySQL, Firebase
-- `Management`: JIRA with SCRUM model
+- `Management`: Use SCRUM model with <i>JIRA</i> 
 
 Function:
-- CRUD operations: Quản lý các tác vụ CRUD cơ bản với Staff, Customer, Product vs Condiment.
-- Statistics: Thống kê doanh thu, visulization doanh số theo Column vs Pie chart, thống kê số lượng sản phẩm bán được trong tháng/năm.
-- Real-time trên Flutter application (hiện thị Product, Receipt theo thời gian thực).
-- Receipt, Ordering: Thao tác Order sản phẩm, quản lý Receipt's Status.
-- Ranking's system với khách hàng tồn tại trên hệ thống.
-- Tri ân khách hàng (Xây dựng mô hình tặng quà vào sinh nhật khách hàng thân thiết)
+- CRUD operations: Manage basic CRUD tasks with Staff, Customer, Product vs Condiment.
+- Statistics: Revenue statistics, sales visualization by Column vs Pie chart, statistics on the number of products sold in the month/year.
+- Real-time on Flutter application (display Product, Receipt in real time).
+- Receipt, Ordering: Operate product orders, manage Receipt's Status.
+- Ranking's system with customers exists on the system.
+- Gratitude to customers (Building a gift giving model on loyal customers' birthdays)
