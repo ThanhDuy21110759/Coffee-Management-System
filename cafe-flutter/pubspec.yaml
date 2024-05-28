@@ -1,0 +1,58 @@
+name: coffee_ui
+description: "Coffe Management System (mobile programing)"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  awesome_snackbar_content: ^0.1.3
+  cupertino_icons: ^1.0.6
+  collection: ^1.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  http: ^0.13.3
+  shared_preferences: ^2.0.8
+  flutter_svg: ^2.0.4
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/store.png
+    - assets/images/bg.png
+    - assets/images/menu.svg
+    - assets/images/search.svg
+    - assets/images/cappuccino.svg
+    - assets/images/espresso.svg
+    - assets/images/macchiato.svg
+    - assets/images/mocha.svg
+    - assets/images/latte.svg
+    - assets/images/home.svg
+    - assets/images/location.svg
+    - assets/images/cart.svg
+    - assets/images/profile.svg
+    - assets/images/receipt.svg
+    - assets/images/size_small.svg
+    - assets/images/size_large.svg
+    - assets/images/size_medium.svg
+    - assets/images/sugar_0.svg
+    - assets/images/sugar_1.svg
+    - assets/images/sugar_2.svg
+    - assets/images/sugar_3.svg
+    - assets/images/user.svg
+  fonts:
+    - family: Sen-Bold
+      fonts:
+        - asset: assets/fonts/Sen-Bold.ttf
+
+    - family: Sen-Regular
+      fonts:
+        - asset: assets/fonts/Sen-Regular.ttf
